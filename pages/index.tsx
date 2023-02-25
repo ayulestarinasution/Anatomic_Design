@@ -1,8 +1,8 @@
-import AtomParagraf from "@/components/atoms/paragraf";
-import AtomButton from "@/components/atoms/button";
+import AtomParagraf from "../components/atoms/paragraf";
+import AtomButton from "../components/atoms/button";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Navbar, Nav, Form , FormControl  } from 'react-bootstrap';
-import Barang from "@/components/molecules/barang";
+import Barang from "../components/molecules/barang";
 export default function Test(){
  return(<> 
   <Navbar bg="dark" variant="dark" >
@@ -12,9 +12,7 @@ export default function Test(){
       <Nav.Link href="#">Grid</Nav.Link>
       
     </Nav>
-    <Form inline>
-      
-    </Form>
+   
   </Navbar>
   <div className="row container">
  <AtomParagraf 
